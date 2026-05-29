@@ -2,9 +2,10 @@ package main
 
 import "fmt"
 
-//var age = 20
-
 func main() {
-	//var age = 20
-	fmt.Println("Hello, World!")
+	var age int
+	var name string
+	fmt.Scanf("%s %d", &name, &age)
+	fmt.Println("Age:", age, "Name:", name)
+
 }
